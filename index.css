@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+        /* border: 1px solid; */
+        height: 13dvh;
+        width: 100%;
+        margin: auto;
+        
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    width: 98%;
+}
+nav a{
+    text-decoration: none;
+}
+
+.card1{
+    /* border: 1px solid; */
+    min-height: 50dvh;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top:20px ;
+}
+.card1 h1,h3{
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-weight: 400;
+    font-size: larger;
+}
+
+.btn1{
+    background-color: #ED1D24;
+    border: 0;
+    height: 60px;
+    width: 170px;
+    color: white;
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: 550;
+}
+
+.card2{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%; 
+    display: flex;
+    
+}
+
+.card2 > .child2{
+    background-image: url("./media/list-feature-audio-setup-1408-e8c2aecbf22ae9db1ec8bc6f056ae2f6028edda5720ecef0a7a2250c4f94d6c3.webp");
+    background-size: cover;
+}
+.child1{
+    min-height: 30dvh;
+    margin: auto;
+    width: 80%; 
+    padding: 30px;
+}
+
+.child1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 80%;
+}
+.child1 p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 80%;
+    line-height: 25px;
+}
+
+.card3{
+    /* border: 1px solid; */
+    min-height: 60dvh;
+    margin: auto;
+    width: 80%; 
+    display: flex;
+}
+
+.card3 > .child3{
+    background-image: url("./media/list-feature-audience-1408-05728c3569fdabb2cc994c909b55b320e8d0bb11fa52574aa0361e619a6c8ed9.webp");
+    background-size: cover;
+}
+
+.child4{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+   
+}
+
+.child4 h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 80%;
+}
+.child4 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+}
+
+.card4{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%; 
+    display: flex;
+}
+
+.card4 > .child6{
+    background-image: url("./media/list-feature-personalise-1408-152306bd700fbae5a81f3f727cb3db712421d33885bb3323a6d1c290f61eddd3.webp");
+    background-size: cover;
+    
+}
+
+.child5{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%;
+    padding: 50px;
+}
+.child5 h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 80%;
+}
+.child5 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+}
+
+.card5{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%; 
+    display: flex;
+}
+.card5 > .child7{
+    background-image: url("./media/list-feature-recordings-1408-e2290b3985d03bc235d9295b3aa85e166a553a25e9654e5f4ba84bba4ca7073f.webp");
+    background-size: cover;
+    width: 100%;
+}
+
+.child8{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 80%;
+    padding: 70px;
+}
+.child8 h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 80%
+}
+.child8 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+}
+
+.card6{
+    /* border: 1px solid; */
+    height: 40dvh;
+    margin: auto;
+    width: 80%; 
+    display: flex;
+}
+
+.card6 > .child10{
+    background-image: url("./media/list-feature-embeddable-1408-582c46d978d3f8f0e31f6e3743ab07ddc6691b05f319c8cf50ea444a07aa8121.webp");
+    background-size: cover;
+    height: 70dvh;
+}
+
+.child9{
+    /* border: 1px solid; */
+    min-height: 70dvh;
+    margin: auto;
+    width: 60%;
+    /* padding: 70px; */
+}
+.child9 h1{
+    font-size: 50px;
+    font-weight: 700;
+    width: 80%
+}
+
+.child9 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    width: 80%;
+}
